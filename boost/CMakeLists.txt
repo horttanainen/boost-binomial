@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.7.1)
 project(boost)
 
 file(
-    GLOB_RECURSIVE SOURCE_FILES
+    RECURSIVE_GLOB SOURCE_FILES
     *.hpp
     *.h
     )
